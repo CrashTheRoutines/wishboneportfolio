@@ -409,15 +409,26 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 16px;
+  margin-bottom: 100px;
 }
 
 /* Team */
 
 .team-section {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 40px;
-  align-items: start;
+  padding: 60px 0;
+}
+
+.team-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.team-content {
+  width: 100%;
+  max-width: 600px;
 }
 
 .team-content h2 {
@@ -450,6 +461,7 @@ p {
   display: flex;
   align-items: center;
   gap: 16px;
+  width: 180px;
 }
 
 .team-member img {
