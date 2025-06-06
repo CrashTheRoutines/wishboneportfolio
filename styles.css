@@ -168,7 +168,6 @@ p {
 
 .firm-title {
   display: flex;
-  margin-top: 96px;
 }
 
 .firm-content {
@@ -275,6 +274,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 15px;
 }
 
