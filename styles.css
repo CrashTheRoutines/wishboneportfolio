@@ -28,14 +28,7 @@ section {
   justify-content: center; 
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 .container {
-  height: 100%;
   width: 100%;
   margin-inline: auto;
   padding-inline: 16px;
@@ -168,6 +161,7 @@ p {
 .our_firm {
   display: flex;
   height: 100vh;
+  margin-bottom: 100px;
 
   background-color: white;
 }
@@ -175,7 +169,6 @@ p {
 .firm-title {
   display: flex;
   margin-top: 96px;
-  margin-top: 0px;
 }
 
 .firm-content {
@@ -218,7 +211,7 @@ p {
 }
 
 .frame-wrapper img {
-  width: 1920px; /* фиксированная ширина, как в фигме */
+  width: 1920px;
   max-width: none;
   height: auto;
 }
