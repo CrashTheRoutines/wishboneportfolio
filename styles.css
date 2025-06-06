@@ -406,17 +406,61 @@ p {
 
 /* Team */
 
-.team {
-  display: flex;
-  flex-direction: row;
+.team-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  padding: 80px 60px;
+  align-items: start;
 }
 
-.team-block {
-  display: flex;
-  flex-direction: column;
+.team-content h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
 }
 
-.team-image {
+.team-content p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 24px;
+  max-width: 400px;
+}
+
+.see-team {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 60px;
+}
+
+.team-member {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.team-member img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.team-member h4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.team-member p {
+  font-size: 0.85rem;
+  color: #777;
+  margin: 2px 0 0;
 }
