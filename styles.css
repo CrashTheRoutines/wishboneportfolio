@@ -429,6 +429,8 @@ p {
 .team-content {
   width: 100%;
   max-width: 600px;
+  flex-shrink: 0;
+  margin-bottom: 106px;
 }
 
 .team-content h2 {
@@ -461,7 +463,7 @@ p {
   display: flex;
   align-items: center;
   gap: 16px;
-  width: 180px;
+  width: 280px;
 }
 
 .team-member img {
@@ -548,4 +550,10 @@ p {
   width: 24px;
   height: 25px;
   display: block;
+}
+
+.footer__text a {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 500;
 }
