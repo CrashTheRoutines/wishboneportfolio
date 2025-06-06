@@ -7,6 +7,9 @@ html, body {
   overflow-x: hidden;
   box-sizing: border-box;
   scroll-behavior: smooth;
+
+  font-family: 'Poppins';
+  font-style: normal;
 }
 
 *,
@@ -37,15 +40,13 @@ section {
 }
 
 h2 {
-  font-family: 'Poppins';
-  font-style: normal;
+  font-weight: 400px;
   font-size: 32px;
 }
 
 p {
-  font-family: 'Poppins';
-  font-style: normal;
   font-size: 16px;
+  font-weight: 400px;
 
   color: #403E3B;
 }
@@ -288,4 +289,134 @@ p {
 
   display: flex;
   justify-content: center;
+}
+
+/* Customers */
+
+.customers {
+  display: flex;
+  flex-direction: row;
+  gap: 132px;
+  padding-top: 60px;
+  padding-left: 136px;
+  background-color: rgba(64, 62, 59, 1);
+}
+
+.customers-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.customers-textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.customers-title {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  color: white;
+}
+
+.customers-title h2 {
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #FFFFFF;
+}
+
+.customers-title p {
+  font-size: 14px;
+  line-height: 20px;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #ECE7E4;
+}
+
+.customers-text p {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  font-size: 15px;
+  line-height: 24px;
+
+  color: #ECE7E4;
+}
+
+.customers-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  
+  gap: 96px;
+}
+
+/* Projects */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 132px;
+  margin-left: 130px;
+  margin-top: 120px;
+}
+
+.projects-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 42px;
+}
+
+.projects-title,
+.team-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 40px;
+  gap: 15px;
+  line-height: 112px;
+}
+
+.projects-title h2,
+.team-title h2 {
+  font-size: 39px;
+  line-height: 42px;
+}
+
+.projects-title p,
+.team-title p {
+  font-size: 24px;
+  line-height: 30px;
+
+  color: rgba(100, 92, 85, 1);
+}
+
+.projects-image {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 379px;
+  height: 480px;
+}
+
+/* Team */
+
+.team {
+  display: flex;
+  flex-direction: row;
+}
+
+.team-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-image {
+  display: flex;
+  flex-direction: column;
 }
