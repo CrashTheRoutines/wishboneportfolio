@@ -6,9 +6,6 @@
     <script>
       (async function () {
         const supportedLangs = ["en", "ru", "es"];
-        const currentPath = window.location.pathname.split("/")[1];
-        if (supportedLangs.includes(currentPath)) return; // уже в нужной папке
-
         const savedLang = localStorage.getItem("lang");
         const browserLang = navigator.language?.split("-")[0] || "en";
 
