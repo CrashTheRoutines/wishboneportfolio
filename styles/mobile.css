@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
   }
-  
+
   .header {
     flex-direction: column;
     align-items: flex-start;
@@ -23,11 +23,13 @@
   }
 
   .hero-content {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 10px;
   }
 
-  .hero-text,
-  .hero-image {
+  .hero-text {
     width: 100%;
     margin-left: 0;
     margin-top: 0;
@@ -41,6 +43,10 @@
 
   .hero-text {
     padding: 20px;
+  }
+
+  .hero-text h2 {
+    display: none;
   }
 
   .our {
@@ -118,5 +124,47 @@
   .footer__right {
     width: 100%;
     justify-content: flex-start;
+  }
+
+  /* Gallery */
+
+  .projects-image {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 0;
+  }
+
+  .projects-item {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+  }
+
+  .projects-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* убрать полосу прокрутки на iOS */
+  .projects-image::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Process */
+
+  .our-process {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .process-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .process-step {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
 }
