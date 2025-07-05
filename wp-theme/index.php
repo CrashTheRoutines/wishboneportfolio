@@ -6,16 +6,16 @@
         <div class="container">
           <div class="hero-content">
             <div class="hero-text">
-              <h2 class="subheading">Wishbone+Partners</h2>
-              <h1 class="heading">Дом<br />прекрасной архитектуры.</h1>
+            <h2 class="subheading">Wishbone+Partners</h2>
+              <h1 class="heading">The home of<br />beautiful architecture.</h1>
               <p class="description">
-                Мы — архитектурная фирма, которая фокусируется на красивом, но
-                функциональном дизайне. По сути, мы считаем, что дизайн — это
-                удобство использования и доступность — это руководящие принципы
-                нашей работы. Подробнее о наших предыдущих проектах, нашем
-                процессе и нашей команде читайте ниже.
+                We are an architecture firm with a focus on beautiful but
+                functional design. At its heart, we believe design is about
+                usability and accessibility — these are the guiding principles
+                for our work. Read more about our previous projects, our process
+                and our team below.
               </p>
-              <a href="#" class="read-more">Узнать больше</a>
+              <a href="#" class="read-more">Read more</a>
             </div>
             <div class="hero-image">
               <img src="<?php echo get_template_directory_uri(); ?>./img/hero_image.png" alt="hero image" />
@@ -31,7 +31,7 @@
               <h2>Наша фирма</h2>
             </div>
             <div class="firm-content">
-              <p>
+            <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis
                 cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
@@ -75,15 +75,15 @@
         <div class="container">
           <div class="our-process">
             <div class="process-title">
-              <h2>Как мы делаем то, что мы делаем.</h2>
-              <p>Наши процессы</p>
+              <h2>How we do what we do.</h2>
+              <p>Our process</p>
             </div>
             <div class="process-content">
               <div class="process-step">
                 <div class="step-image">
                   <img src="<?php echo get_template_directory_uri(); ?>./img/sketching.png" alt="step image" />
                 </div>
-                <h2>Набросок</h2>
+                <h2>Sketching</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                   ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae
@@ -94,7 +94,7 @@
                 <div class="step-image">
                   <img src="<?php echo get_template_directory_uri(); ?>./img/finalizing.png" alt="step image" />
                 </div>
-                <h2>Завершение</h2>
+                <h2>Finalizing</h2>
                 <p>
                   Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor
                   leo iaculis luctus sapien ac arcu tempor, vitae.
@@ -104,7 +104,7 @@
                 <div class="step-image">
                   <img src="<?php echo get_template_directory_uri(); ?>./img/building.png" alt="step image" />
                 </div>
-                <h2>Сборка</h2>
+                <h2>Building</h2>
                 <p>
                   Nulla ut tristique libero. Lorem ipsum ut tristique libero.
                   Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor
@@ -127,8 +127,8 @@
           <div class="customers-block">
             <div class="customers-textarea">
               <div class="customers-title">
-                <h2>Счастливые клиенты.</h2>
-                <p>Приоритетные клиенты</p>
+              <h2>Happy customers.</h2>
+                <p>prior clients</p>
               </div>
               <div class="customers-text">
                 <p>
@@ -158,10 +158,10 @@
         <div class="container">
           <div class="projects-block">
             <div class="projects-title">
-              <h2>Избранные проекты.</h2>
+            <h2>Featured projects.</h2>
               <p>
-                Некоторые из последних и самых выдающихся проектов от нас<br />
-                здесь, в Wishbone+Partners.
+                Some of the latest and greatest projects from us<br />
+                here at Wishbone+Partners.
               </p>
             </div>
             <div class="projects-image">
@@ -183,7 +183,7 @@
         <div class="container">
           <div class="team-area">
             <div class="team-content">
-              <h2>Встречайте нашу команду</h2>
+            <h2>Meet our team</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in eros elementum tristique. Duis

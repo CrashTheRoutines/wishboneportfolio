@@ -1,3 +1,16 @@
+/*
+Theme Name: Wishbone+Partners
+Theme URI: https://example.com/luxury-theme
+Author: Adam Lean
+Author URI: https://example.com
+Description: Architect company landing page WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wishbonepartners
+Tags: architecture, landing, landing-page
+*/
+
 @import "./mobile.css";
 
 html, body {

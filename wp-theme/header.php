@@ -25,7 +25,7 @@
           'menu_class' => 'nav-links'
         ]);
       ?>
-     <button class="button">Получить шаблон</button>
+     <button class="button">Get template</button>
     </nav>
   </div>
 </header>
